@@ -7,5 +7,6 @@ func reverse(input []int64) (result []int64) {
 		input[i] = input[(len(input)-1)-i]
 		input[(len(input)-1)-i] = a
 	}
-	return input
+	result = input
+	return result
 }
